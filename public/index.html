@@ -5,8 +5,26 @@
 		<meta charset="UTF-8" />
 
 		<style>
-			.preload {background: url(images/schwaggr.png) no-repeat center center fixed;
-			background-color: rgba(166,166,166,1);-webkit-background-size: cover;-moz-background-size: cover;o-background-size: cover;background-size: cover;}
+			.preload {
+				background-image: url(images/schwaggr.png);
+				background-repeat: no-repeat;
+				background-position: center center;
+				background-attachment: fixed;
+				background-color: rgba(166,166,166,1);
+				-webkit-background-size: cover;
+				   -moz-background-size: cover;
+				        background-size: cover;
+			}
+			a {
+				height: 100%;
+				width: 100%;
+				display: block;
+				position: absolute;
+				top: 0;
+				bottom: 0;
+				left: 0;
+				right: 0;
+			}
 		</style>
 
     <script>
@@ -21,5 +39,6 @@
 	</head>
 
 	<body class="preload">
+		<a href="mailto:hello@schwaggr.com"></a>
 	</body>
 </html>
